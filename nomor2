@@ -1,0 +1,29 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int bulan;
+    float awal, bunga, admin, jumlah;
+    
+    cout<<"Setoran Awal = Rp ";cin>>awal;
+    cout<<"Waktu Menabung = ";cin>>bulan;
+    
+    if (bulan>=12)
+    {
+       bunga=0.06*awal;
+       admin=(awal/bulan)*0.00125;
+       jumlah=awal+bunga-admin;
+    }
+    
+    else 
+    {
+       admin=(awal/bulan)*0.00125;
+       jumlah=awal-admin; 
+    }
+    
+    cout<<"\n\nSaldo Akhir = Rp "<<jumlah<<endl;
+    
+    return 0;
+}
