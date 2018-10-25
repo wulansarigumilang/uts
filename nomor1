@@ -1,0 +1,458 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int qty, hasil, kodbara, kodbarb, kodbarc, kodbard, kodbare, kodbarf, hasila, hasilb, hasilc, hasild, hasile, hasilf, total, x, bayar;
+    
+    cout<<"===================================="<<endl;
+    cout<<"Masukkan kode barang: ";cin>>kodbara;
+    cout<<"Masukkan Qty: ";cin>>qty;
+    
+    if (kodbara==1)
+    {
+        cout<<"\n\nNama Item    : item1"<<endl;
+        cout<<"Harga Item   : Rp 5000"<<endl;
+        hasila=5000*qty;
+    }
+    
+    else if (kodbara==2)
+    {
+        cout<<"\n\nNama Item    : item2"<<endl;
+        cout<<"Harga Item   : Rp 6000"<<endl;
+        hasila=6000*qty;
+    }
+    
+    else if (kodbara==3)
+    {
+        cout<<"\n\nNama Item    : item3"<<endl;
+        cout<<"Harga Item   : Rp 15000"<<endl;
+        hasila=15000*qty;
+    }
+    
+    else if (kodbara==4)
+    {
+        cout<<"\n\nNama Item    : item4"<<endl;
+        cout<<"Harga Item   : Rp 15000"<<endl;
+        hasila=2000*qty;
+    }
+    
+    else if (kodbara==5)
+    {
+        cout<<"\n\nNama Item    : item5"<<endl;
+        cout<<"Harga Item   : Rp 15000"<<endl;
+        hasila=3000*qty;
+    }
+    
+    else if (kodbara==6)
+    {
+        cout<<"\n\nNama Item    : item6"<<endl;
+        cout<<"Harga Item   : Rp 6000"<<endl;
+        hasila=6000*qty;
+    }
+    
+    else if (kodbara==7)
+    {
+        cout<<"\n\nNama Item    : item7"<<endl;
+        cout<<"Harga Item   : Rp 15000"<<endl;
+        hasila=15000*qty;
+    }
+    
+    else if (kodbara==8)
+    {
+        cout<<"\n\nNama Item    : item8"<<endl;
+        cout<<"Harga Item   : Rp 2000"<<endl;
+        hasila=2000*qty;
+    }
+    
+    else if (kodbara==9)
+    {
+        cout<<"\n\nNama Item    : item9"<<endl;
+        cout<<"Harga Item   : Rp 3000"<<endl;
+        hasila=3000*qty;
+    }
+    
+     else if (kodbara==10)
+    {
+        cout<<"\n\nNama Item    : item10"<<endl;
+        cout<<"Harga Item   : Rp 3000"<<endl;
+        hasila=3000*qty;
+    }
+    
+    cout<<"\n\nMasukkan kode barang: ";cin>>kodbarc;
+    cout<<"Masukkan Qty: ";cin>>qty;
+    
+    if (kodbarb==1)
+    {
+        cout<<"\n\nNama Item    : item1"<<endl;
+        cout<<"Harga Item   : Rp 5000"<<endl;
+        hasilb=5000*qty;
+    }
+    
+    else if (kodbarb==2)
+    {
+        cout<<"\n\nNama Item    : item2"<<endl;
+        cout<<"Harga Item   : Rp 6000"<<endl;
+        hasilb=6000*qty;
+    }
+    
+    else if (kodbarb==3)
+    {
+        cout<<"\n\nNama Item    : item3"<<endl;
+        cout<<"Harga Item   : Rp 15000"<<endl;
+        hasilb=15000*qty;
+    }
+    
+    else if (kodbarb==4)
+    {
+        cout<<"\n\nNama Item    : item4"<<endl;
+        cout<<"Harga Item   : Rp 2000"<<endl;
+        hasilb=2000*qty;
+    }
+    
+    else if (kodbarb==5)
+    {
+        cout<<"\n\nNama Item    : item5"<<endl;
+        cout<<"Harga Item   : Rp 15000"<<endl;
+        hasilb=3000*qty;
+    }
+    
+    else if (kodbarb==6)
+    {
+        cout<<"\n\nNama Item    : item6"<<endl;
+        cout<<"Harga Item   : Rp 6000"<<endl;
+        hasilb=6000*qty;
+    }
+    
+    else if (kodbarb==7)
+    {
+        cout<<"\n\nNama Item    : item7"<<endl;
+        cout<<"Harga Item   : Rp 15000"<<endl;
+        hasilb=15000*qty;
+    }
+    
+    else if (kodbarb==8)
+    {
+        cout<<"\n\nNama Item    : item8"<<endl;
+        cout<<"Harga Item   : Rp 2000"<<endl;
+        hasilb=2000*qty;
+    }
+    
+    else if (kodbarb==9)
+    {
+        cout<<"\n\nNama Item    : item9"<<endl;
+        cout<<"Harga Item   : Rp 3000"<<endl;
+        hasilb=3000*qty;
+    }
+    
+     else if (kodbarb==10)
+    {
+        cout<<"\n\nNama Item    : item10"<<endl;
+        cout<<"Harga Item   : Rp 15000"<<endl;
+        hasilb=15000*qty;
+    }
+    
+    cout<<"\n\nMasukkan kode barang: ";cin>>kodbarc;
+    cout<<"Masukkan Qty: ";cin>>qty;
+    
+    if (kodbarc==1)
+    {
+        cout<<"\n\nNama Item    : item1"<<endl;
+        cout<<"Harga Item   : Rp 5000"<<endl;
+        hasilc=5000*qty;
+    }
+    
+    else if (kodbarc==2)
+    {
+        cout<<"\n\nNama Item    : item2"<<endl;
+        cout<<"Harga Item   : Rp 6000"<<endl;
+        hasilc=6000*qty;
+    }
+    
+    else if (kodbarc==3)
+    {
+        cout<<"\n\nNama Item    : item3"<<endl;
+        cout<<"Harga Item   : Rp 15000"<<endl;
+        hasilc=15000*qty;
+    }
+    
+    else if (kodbarc==4)
+    {
+        cout<<"\n\nNama Item    : item4"<<endl;
+        cout<<"Harga Item   : Rp 2000"<<endl;
+        hasilc=2000*qty;
+    }
+    
+    else if (kodbarc==5)
+    {
+        cout<<"\n\nNama Item    : item5"<<endl;
+        cout<<"Harga Item   : Rp 15000"<<endl;
+        hasilc=3000*qty;
+    }
+    
+    else if (kodbarc==6)
+    {
+        cout<<"\n\nNama Item    : item6"<<endl;
+        cout<<"Harga Item   : Rp 6000"<<endl;
+        hasilc=6000*qty;
+    }
+    
+    else if (kodbarc==7)
+    {
+        cout<<"\n\nNama Item    : item7"<<endl;
+        cout<<"Harga Item   : Rp 15000"<<endl;
+        hasilc=15000*qty;
+    }
+    
+    else if (kodbarc==8)
+    {
+        cout<<"\n\nNama Item    : item8"<<endl;
+        cout<<"Harga Item   : Rp 2000"<<endl;
+        hasilc=2000*qty;
+    }
+    
+    else if (kodbarc==9)
+    {
+        cout<<"\n\nNama Item    : item9"<<endl;
+        cout<<"Harga Item   : Rp 3000"<<endl;
+        hasilc=3000*qty;
+    }
+    
+     else if (kodbarc==10)
+    {
+        cout<<"\n\nNama Item    : item10"<<endl;
+        cout<<"Harga Item   : Rp 15000"<<endl;
+        hasilc=15000*qty;
+    }
+    
+    cout<<"\n\nMasukkan kode barang: ";cin>>kodbard;
+    cout<<"Masukkan Qty: ";cin>>qty;
+    
+    if (kodbard==1)
+    {
+        cout<<"\n\nNama Item    : item1"<<endl;
+        cout<<"Harga Item   : Rp 5000"<<endl;
+        hasild=5000*qty;
+    }
+    
+    else if (kodbard==2)
+    {
+        cout<<"\n\nNama Item    : item2"<<endl;
+        cout<<"Harga Item   : Rp 6000"<<endl;
+        hasild=6000*qty;
+    }
+    
+    else if (kodbard==3)
+    {
+        cout<<"\n\nNama Item    : item3"<<endl;
+        cout<<"Harga Item   : Rp 15000"<<endl;
+        hasild=15000*qty;
+    }
+    
+    else if (kodbard==4)
+    {
+        cout<<"\n\nNama Item    : item4"<<endl;
+        cout<<"Harga Item   : Rp 2000"<<endl;
+        hasild=2000*qty;
+    }
+    
+    else if (kodbard==5)
+    {
+        cout<<"\n\nNama Item    : item5"<<endl;
+        cout<<"Harga Item   : Rp 15000"<<endl;
+        hasild=3000*qty;
+    }
+    
+    else if (kodbard==6)
+    {
+        cout<<"\n\nNama Item    : item6"<<endl;
+        cout<<"Harga Item   : Rp 6000"<<endl;
+        hasild=6000*qty;
+    }
+    
+    else if (kodbard==7)
+    {
+        cout<<"\n\nNama Item    : item7"<<endl;
+        cout<<"Harga Item   : Rp 15000"<<endl;
+        hasild=15000*qty;
+    }
+    
+    else if (kodbard==8)
+    {
+        cout<<"\n\nNama Item    : item8"<<endl;
+        cout<<"Harga Item   : Rp 2000"<<endl;
+        hasild=2000*qty;
+    }
+    
+    else if (kodbard==9)
+    {
+        cout<<"\n\nNama Item    : item9"<<endl;
+        cout<<"Harga Item   : Rp 3000"<<endl;
+        hasild=3000*qty;
+    }
+    
+     else if (kodbard==10)
+    {
+        cout<<"\n\nNama Item    : item10"<<endl;
+        cout<<"Harga Item   : Rp 15000"<<endl;
+        hasild=15000*qty;
+    }
+    
+    cout<<"\n\nMasukkan kode barang: ";cin>>kodbare;
+    cout<<"Masukkan Qty: ";cin>>qty;
+    
+    if (kodbare==1)
+    {
+        cout<<"\n\nNama Item    : item1"<<endl;
+        cout<<"Harga Item   : Rp 5000"<<endl;
+        hasile=5000*qty;
+    }
+    
+    else if (kodbare==2)
+    {
+        cout<<"\n\nNama Item    : item2"<<endl;
+        cout<<"Harga Item   : Rp 6000"<<endl;
+        hasile=6000*qty;
+    }
+    
+    else if (kodbare==3)
+    {
+        cout<<"\n\nNama Item    : item3"<<endl;
+        cout<<"Harga Item   : Rp 15000"<<endl;
+        hasile=15000*qty;
+    }
+    
+    else if (kodbare==4)
+    {
+        cout<<"\n\nNama Item    : item4"<<endl;
+        cout<<"Harga Item   : Rp 2000"<<endl;
+        hasile=2000*qty;
+    }
+    
+    else if (kodbare==5)
+    {
+        cout<<"\n\nNama Item    : item5"<<endl;
+        cout<<"Harga Item   : Rp 15000"<<endl;
+        hasile=3000*qty;
+    }
+    
+    else if (kodbare==6)
+    {
+        cout<<"\n\nNama Item    : item6"<<endl;
+        cout<<"Harga Item   : Rp 6000"<<endl;
+        hasile=6000*qty;
+    }
+    
+    else if (kodbare==7)
+    {
+        cout<<"\n\nNama Item    : item7"<<endl;
+        cout<<"Harga Item   : Rp 15000"<<endl;
+        hasile=15000*qty;
+    }
+    
+    else if (kodbare==8)
+    {
+        cout<<"\n\nNama Item    : item8"<<endl;
+        cout<<"Harga Item   : Rp 2000"<<endl;
+        hasile=2000*qty;
+    }
+    
+    else if (kodbare==9)
+    {
+        cout<<"\n\nNama Item    : item9"<<endl;
+        cout<<"Harga Item   : Rp 3000"<<endl;
+        hasile=3000*qty;
+    }
+    
+     else if (kodbare==10)
+    {
+        cout<<"\n\nNama Item    : item10"<<endl;
+        cout<<"Harga Item   : Rp 15000"<<endl;
+        hasile=15000*qty;
+    }
+    
+    cout<<"\n\nMasukkan kode barang: ";cin>>kodbarf;
+    cout<<"Masukkan Qty: ";cin>>qty;
+    
+    if (kodbarf==1)
+    {
+        cout<<"\n\nNama Item    : item1"<<endl;
+        cout<<"Harga Item   : Rp 5000"<<endl;
+        hasilf=5000*qty;
+    }
+    
+    else if (kodbarf==2)
+    {
+        cout<<"\n\nNama Item    : item2"<<endl;
+        cout<<"Harga Item   : Rp 6000"<<endl;
+        hasilf=6000*qty;
+    }
+    
+    else if (kodbarf==3)
+    {
+        cout<<"\n\nNama Item    : item2"<<endl;
+        cout<<"Harga Item   : Rp 15000"<<endl;
+        hasilf=15000*qty;
+    }
+    
+     else if (kodbarf==4)
+    {
+        cout<<"\n\nNama Item    : item2"<<endl;
+        cout<<"Harga Item   : Rp 2000"<<endl;
+        hasilf=2000*qty;
+    }
+    
+    else if (kodbarf==5)
+    {
+        cout<<"\n\nNama Item    : item5"<<endl;
+        cout<<"Harga Item   : Rp 15000"<<endl;
+        hasilf=3000*qty;
+    }
+    
+    else if (kodbarf==6)
+    {
+        cout<<"\n\nNama Item    : item6"<<endl;
+        cout<<"Harga Item   : Rp 6000"<<endl;
+        hasilf=6000*qty;
+    }
+    
+    else if (kodbarf==7)
+    {
+        cout<<"\n\nNama Item    : item7"<<endl;
+        cout<<"Harga Item   : Rp 15000"<<endl;
+        hasilf=15000*qty;
+    }
+    
+    else if (kodbarf==8)
+    {
+        cout<<"\n\nNama Item    : item8"<<endl;
+        cout<<"Harga Item   : Rp 2000"<<endl;
+        hasilf=2000*qty;
+    }
+    
+    else if (kodbarf==9)
+    {
+        cout<<"\n\nNama Item    : item9"<<endl;
+        cout<<"Harga Item   : Rp 3000"<<endl;
+        hasilf=3000*qty;
+    }
+    
+     else if (kodbarf=10)
+    {
+        cout<<"\n\nNama Item    : item10"<<endl;
+        cout<<"Harga Item   : Rp 15000"<<endl;
+        hasilf=15000*qty;
+    }
+    
+    cout<<"\n\n===================================="<<endl;
+    total=hasila+hasilb+hasilc+hasild+hasile+hasilf;
+    cout<<"\nTotal = Rp "<<total<<endl;
+    cout<<"Bayar = Rp ";cin>>bayar;
+    x=bayar-total;
+    cout<<"Kembali = Rp "<<x<<endl;
+    cout<<"\n\n===================================="<<endl;
+    cout<<"Thank You :)"<<endl;
+    
+   return 0;
+}
